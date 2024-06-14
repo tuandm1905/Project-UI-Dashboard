@@ -1,0 +1,13 @@
+<!-- sidebar-admin.component.html -->
+<div class="sidebar" [ngClass]="{ 'collapsed': isCollapsed }">
+  <nav>
+    <ul>
+      <li><a routerLink="/dashboard-admin" routerLinkActive="active" (click)="toggleMobileMenu()">Dashboard</a></li>
+      <li><a routerLink="/category-admin" routerLinkActive="active" (click)="toggleMobileMenu()">Category</a></li>
+      <li><a routerLink="/product-admin" routerLinkActive="active" (click)="toggleMobileMenu()">Product</a></li>
+      <li><a routerLink="/order-admin" routerLinkActive="active" (click)="toggleMobileMenu()">Order</a></li>
+      <li><a routerLink="/brand-admin" routerLinkActive="active" (click)="toggleMobileMenu()">Brand</a></li>
+      <li><a routerLink="/blog-admin" routerLinkActive="active" (click)="toggleMobileMenu()">Blog</a></li>
+    </ul>
+  </nav>
+</div>
